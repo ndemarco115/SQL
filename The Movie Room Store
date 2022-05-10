@@ -1,0 +1,24 @@
+CREATE TABLE moviestore (id INTEGER PRIMARY KEY,name TEXT, quantity INTEGER, Release_Year INTEGER, price INTEGER);
+
+INSERT INTO Moviestore VALUES (1, "Shawshank Redemption", 20, 1994, 10.99);
+INSERT INTO Moviestore VALUES (2, "STAR WARS",11, 1977, 7.99);
+INSERT INTO Moviestore VALUES (3, "Perks of being a wallflower", 15, 2012, 8.99);
+INSERT INTO Moviestore VALUES (4, "Friday the 13th", 10, 1980, 7.99);
+INSERT INTO Moviestore VALUES (5, "Nightmare on elm street", 14, 1984, 7.99); 
+INSERT INTO Moviestore VALUES (6, "Halloween", 12, 1978, 6.99);
+INSERT INTO Moviestore VALUES (7, "Gremlins", 14, 1984, 6.99);
+INSERT INTO Moviestore VALUES (8, "Spider-man",18, 2002, 7.99);
+INSERT INTO Moviestore VALUES (9, "The Dark Night", 14, 2008, 8.99);
+INSERT INTO Moviestore VALUES (10, "Argo", 10, 2012, 9.99);
+INSERT INTO Moviestore VALUES (11, "Sonic the Hedgehog", 5, 2020, 14.99);
+INSERT INTO Moviestore VALUES (12, "LA LA Land", 7, 2016, 12.99);
+INSERT INTO Moviestore VALUES (13, "Swiss army man", 8, 2016, 13.99);
+INSERT INTO Moviestore VALUES (14, "Dazed and confused", 10, 1993, 5.99);
+INSERT INTO Moviestore VALUES (15, "School of rock", 7, 2003, 8.99);
+
+SELECT * FROM moviestore;
+
+SELECT * FROM moviestore
+WHERE Price >=1.99
+ORDER BY Price asc; 
+
